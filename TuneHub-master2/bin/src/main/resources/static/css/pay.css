@@ -1,0 +1,96 @@
+/* pay.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+	margin-top:-100px;
+	margin-bottom:-10px;
+    width: 70%;
+    background-color: #262626;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 10rem;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+.container ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.container1 {
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height:65vh;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buy-button {
+	width:120px;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #555;
+}
+.sidebar .active{
+	background-color: #8e8e8e;
+} 

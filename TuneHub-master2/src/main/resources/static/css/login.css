@@ -1,0 +1,160 @@
+/* login.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-image:url(https://img.freepik.com/premium-photo/black-background-wallpaper_764067-179.jpg);
+    background-position:center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+
+	width: 70%;
+	background-color: #262626;
+	color:black;
+	padding: 10px 0;
+	border-radius: 10rem;
+	margin-top: -170px;
+}
+
+.page-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+	overflow: hidden;
+}
+
+.logo a {
+	text-decoration: none;
+	color: #fff;;
+	font-size: 24px;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	margin-right: 20px;
+}
+
+ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.active {
+	font-weight: bold;
+}
+
+.container1 {
+	width: 350px;
+	margin-top: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+form {
+	color:white;
+	width: 100%;
+	max-width: 500px;
+	background-color: transparent;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px black;
+}
+
+h1 {
+	margin-top: 0px;
+	text-align: center;
+}
+
+label {
+	margin-bottom: 5px;
+}
+input, textarea {
+	width: 67%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.container1 button {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
+
+.container1 button {
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.container1 button:hover {
+	background-color: #555;
+}
+
+p {
+    margin-top:5px;
+	text-align: center;
+}
+p a{
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+}
+
+#anc{
+	margin-top:-30px;
+	display:block;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+}
+.home {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.home button{
+	width: 100px;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+}
+.home button:hover {
+	background-color: #555;
+}
+
